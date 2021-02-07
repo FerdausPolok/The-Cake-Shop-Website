@@ -1,0 +1,310 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/*CSS FOR TOP TOP-NAV */
+.topnav{
+    background-color: #DCDCDE;
+}
+.topnav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+.topnav .nav-links{
+    display: flex;
+    
+}
+
+.topnav .nav-link{
+    margin: 0px 15px;
+    
+}
+
+
+
+.topnav .search button{
+    background-color: orange;
+    border: 0px;
+    padding: 7px 10px;
+    color: white;
+}
+
+.topnav .search input{
+    padding: 5px 7px;
+    border: 0px;
+}
+
+.topnav .search form div{
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.topnav .logo img{
+    size: inherit;
+}
+
+
+/*CSS FOR TOP NAV-BAR */
+
+.navbar .nav-links{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.navbar .nav-link{
+    margin: 0px 30px;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: rgb(255, 129, 25);
+    padding: 25px;
+}
+
+/*CSS FOR TOP HERO */
+
+.hero .container{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.hero .stars i{
+    color: rgb(255, 129, 25);;
+}
+
+.hero .image-wrapper img{
+    object-fit: cover;
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+
+}
+
+.hero .up{
+    margin-left: 10px;
+    display: flex;
+    padding: 0px 60px;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.hero .down{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.hero .down h3{
+    margin-right: 20px;
+}
+
+.hero .info{
+    margin-left: 30px;
+}
+
+.hero .info .sub {
+    margin-top: -10px;
+    font-weight: lighter;
+}
+
+/*CSS FOR Ingredients*/
+
+.ingredients .container{
+    display: flex;
+    justify-content: center;
+    margin-right: 160px;
+    
+}
+
+.ingredients .image-wrapper img{
+    object-fit: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 100px;
+}
+.ingredients .item{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.ingredients .item p{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.ingredients .left .title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #339C32;
+}
+.ingredients .item i{
+    color: rgb(255, 129, 25);
+}
+
+.ingredients .right{
+    margin-left: 40px;
+}
+
+/*CSS FOR Ingredients part 2 */
+
+.ingredients2 .container{
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+    
+}
+
+.ingredients2 .image-wrapper img{
+    object-fit: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: -15px;
+}
+.ingredients2 .item{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    
+}
+
+.ingredients2 .item p{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.ingredients2 .left .title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #339C32;
+}
+.ingredients2 .item i{
+    color: rgb(255, 129, 25);
+
+}
+
+.ingredients2 .right{
+    margin-left: 40px;
+}
+
+
+/*CSS FOR method */
+
+.method .container{
+    
+    padding: 10px 30%;
+    
+}
+
+.method .item{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.method .item p{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.method .title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #339C32;
+}
+.method .title2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #339C32;
+    margin-top: 20px;
+}
+.method .item i{
+    color: rgb(255, 129, 25);
+}
+.method .items{
+    text-align: center;
+}
+
+/*CSS FOR footer*/
+
+
+.footer {
+    background: #d2d3d2;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 210px;
+    margin-bottom: 40px;
+}
+
+.footer .container .subscription {
+    width: 300px;
+}
+
+.footer .container .contact {
+    text-align: right;
+}
+
+.footer h4 {
+    margin-bottom: 0px;
+}
+
+.footer p {
+    margin: 0px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px;
+    margin-top: -40px;
+}
+
+.footer-bottom small {
+    display: block;
+}
+
+.footer .subscription button{
+    background-color: orange;
+    border: 0px;
+    padding: 5px 7px;
+    color: white;
+    border-radius: 50px;
+}
+
+.footer input{
+    padding: 5px 7px;
+    border: 0px;
+    border-radius: 30px;
+}
+.footer form{
+    margin-top: 20px;
+}
